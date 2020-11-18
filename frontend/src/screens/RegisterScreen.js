@@ -50,7 +50,7 @@ const RegisterScreen = ({ history, location }) => {
           <Form.Label>Name</Form.Label>
           <Form.Control
             type="text"
-            placeholder="Enter Email"
+            placeholder="Enter Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
           ></Form.Control>
